@@ -1,6 +1,6 @@
 //
 //  YLDateTime.h
-//  CoreMotion
+//  CMStepCounterDemo
 //
 //  Created by Hatta Yasuhiro on 2014/03/08.
 //  Copyright (c) 2014年 yaslab. All rights reserved.
