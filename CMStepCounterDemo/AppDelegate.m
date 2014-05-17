@@ -13,6 +13,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.stepCounter = [StepCounter new];
+    if ([self.stepCounter isAvailable]) {
+        [self.stepCounter start];
+    }
+    else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"モーションアクティビティが使用できません" delegate:nil cancelButtonTitle:@"閉じる" otherButtonTitles:nil];
+        [alert show];
+    }
     return YES;
 }
 							

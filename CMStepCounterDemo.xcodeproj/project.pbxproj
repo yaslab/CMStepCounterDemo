@@ -14,14 +14,20 @@
 		0EAC7022192727DA0035A8A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC7021192727DA0035A8A2 /* main.m */; };
 		0EAC7026192727DA0035A8A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC7025192727DA0035A8A2 /* AppDelegate.m */; };
 		0EAC7029192727DA0035A8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC7027192727DA0035A8A2 /* Main.storyboard */; };
-		0EAC702C192727DA0035A8A2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC702B192727DA0035A8A2 /* FirstViewController.m */; };
-		0EAC702F192727DA0035A8A2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC702E192727DA0035A8A2 /* SecondViewController.m */; };
+		0EAC702C192727DA0035A8A2 /* StepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC702B192727DA0035A8A2 /* StepsViewController.m */; };
+		0EAC702F192727DA0035A8A2 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC702E192727DA0035A8A2 /* HistoryViewController.m */; };
 		0EAC7031192727DA0035A8A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC7030192727DA0035A8A2 /* Images.xcassets */; };
 		0EAC7038192727DA0035A8A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAC7037192727DA0035A8A2 /* XCTest.framework */; };
 		0EAC7039192727DA0035A8A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAC7015192727DA0035A8A2 /* Foundation.framework */; };
 		0EAC703A192727DA0035A8A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAC7019192727DA0035A8A2 /* UIKit.framework */; };
 		0EAC7042192727DA0035A8A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC7040192727DA0035A8A2 /* InfoPlist.strings */; };
 		0EAC7044192727DA0035A8A2 /* CMStepCounterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC7043192727DA0035A8A2 /* CMStepCounterDemoTests.m */; };
+		0EAC704F192729950035A8A2 /* StepCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC704E192729950035A8A2 /* StepCounter.m */; };
+		0EAC705219272DB90035A8A2 /* YLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC705119272DB90035A8A2 /* YLDateTime.m */; };
+		0EAC70551927332C0035A8A2 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC70541927332C0035A8A2 /* HistoryCell.m */; };
+		0EAC70581927350C0035A8A2 /* TableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC70571927350C0035A8A2 /* TableRow.m */; };
+		0EAC705B1927351A0035A8A2 /* TableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC705A1927351A0035A8A2 /* TableSection.m */; };
+		0EAC705E1927386C0035A8A2 /* HistoryRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC705D1927386C0035A8A2 /* HistoryRow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +52,28 @@
 		0EAC7024192727DA0035A8A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EAC7025192727DA0035A8A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0EAC7028192727DA0035A8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0EAC702A192727DA0035A8A2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		0EAC702B192727DA0035A8A2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		0EAC702D192727DA0035A8A2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		0EAC702E192727DA0035A8A2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0EAC702A192727DA0035A8A2 /* StepsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepsViewController.h; sourceTree = "<group>"; };
+		0EAC702B192727DA0035A8A2 /* StepsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepsViewController.m; sourceTree = "<group>"; };
+		0EAC702D192727DA0035A8A2 /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		0EAC702E192727DA0035A8A2 /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		0EAC7030192727DA0035A8A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0EAC7036192727DA0035A8A2 /* CMStepCounterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMStepCounterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAC7037192727DA0035A8A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0EAC703F192727DA0035A8A2 /* CMStepCounterDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMStepCounterDemoTests-Info.plist"; sourceTree = "<group>"; };
 		0EAC7041192727DA0035A8A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EAC7043192727DA0035A8A2 /* CMStepCounterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMStepCounterDemoTests.m; sourceTree = "<group>"; };
+		0EAC704D192729950035A8A2 /* StepCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepCounter.h; sourceTree = "<group>"; };
+		0EAC704E192729950035A8A2 /* StepCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepCounter.m; sourceTree = "<group>"; };
+		0EAC705019272DB90035A8A2 /* YLDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDateTime.h; sourceTree = "<group>"; };
+		0EAC705119272DB90035A8A2 /* YLDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDateTime.m; sourceTree = "<group>"; };
+		0EAC70531927332C0035A8A2 /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		0EAC70541927332C0035A8A2 /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		0EAC70561927350C0035A8A2 /* TableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRow.h; sourceTree = "<group>"; };
+		0EAC70571927350C0035A8A2 /* TableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRow.m; sourceTree = "<group>"; };
+		0EAC70591927351A0035A8A2 /* TableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSection.h; sourceTree = "<group>"; };
+		0EAC705A1927351A0035A8A2 /* TableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSection.m; sourceTree = "<group>"; };
+		0EAC705C1927386C0035A8A2 /* HistoryRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryRow.h; sourceTree = "<group>"; };
+		0EAC705D1927386C0035A8A2 /* HistoryRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryRow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,13 +135,25 @@
 			children = (
 				0EAC7024192727DA0035A8A2 /* AppDelegate.h */,
 				0EAC7025192727DA0035A8A2 /* AppDelegate.m */,
-				0EAC7027192727DA0035A8A2 /* Main.storyboard */,
-				0EAC702A192727DA0035A8A2 /* FirstViewController.h */,
-				0EAC702B192727DA0035A8A2 /* FirstViewController.m */,
-				0EAC702D192727DA0035A8A2 /* SecondViewController.h */,
-				0EAC702E192727DA0035A8A2 /* SecondViewController.m */,
+				0EAC70531927332C0035A8A2 /* HistoryCell.h */,
+				0EAC70541927332C0035A8A2 /* HistoryCell.m */,
+				0EAC705C1927386C0035A8A2 /* HistoryRow.h */,
+				0EAC705D1927386C0035A8A2 /* HistoryRow.m */,
+				0EAC702D192727DA0035A8A2 /* HistoryViewController.h */,
+				0EAC702E192727DA0035A8A2 /* HistoryViewController.m */,
 				0EAC7030192727DA0035A8A2 /* Images.xcassets */,
+				0EAC7027192727DA0035A8A2 /* Main.storyboard */,
+				0EAC704D192729950035A8A2 /* StepCounter.h */,
+				0EAC704E192729950035A8A2 /* StepCounter.m */,
+				0EAC702A192727DA0035A8A2 /* StepsViewController.h */,
+				0EAC702B192727DA0035A8A2 /* StepsViewController.m */,
 				0EAC701C192727DA0035A8A2 /* Supporting Files */,
+				0EAC70561927350C0035A8A2 /* TableRow.h */,
+				0EAC70571927350C0035A8A2 /* TableRow.m */,
+				0EAC70591927351A0035A8A2 /* TableSection.h */,
+				0EAC705A1927351A0035A8A2 /* TableSection.m */,
+				0EAC705019272DB90035A8A2 /* YLDateTime.h */,
+				0EAC705119272DB90035A8A2 /* YLDateTime.m */,
 			);
 			path = CMStepCounterDemo;
 			sourceTree = "<group>";
@@ -254,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAC702F192727DA0035A8A2 /* SecondViewController.m in Sources */,
+				0EAC705B1927351A0035A8A2 /* TableSection.m in Sources */,
+				0EAC704F192729950035A8A2 /* StepCounter.m in Sources */,
+				0EAC70551927332C0035A8A2 /* HistoryCell.m in Sources */,
+				0EAC705219272DB90035A8A2 /* YLDateTime.m in Sources */,
+				0EAC702F192727DA0035A8A2 /* HistoryViewController.m in Sources */,
 				0EAC7026192727DA0035A8A2 /* AppDelegate.m in Sources */,
-				0EAC702C192727DA0035A8A2 /* FirstViewController.m in Sources */,
+				0EAC70581927350C0035A8A2 /* TableRow.m in Sources */,
+				0EAC705E1927386C0035A8A2 /* HistoryRow.m in Sources */,
+				0EAC702C192727DA0035A8A2 /* StepsViewController.m in Sources */,
 				0EAC7022192727DA0035A8A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

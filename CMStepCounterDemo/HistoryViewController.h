@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  HistoryViewController.h
 //  CMStepCounterDemo
 //
 //  Created by Hatta Yasuhiro on 2014/05/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface HistoryViewController : UITableViewController
 
 @end
